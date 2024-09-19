@@ -76,9 +76,9 @@ public class FortuneTellerFrame extends JFrame {
         randomFortunes.add("You'll get complimented by a grandma.");
         randomFortunes.add("Your ex will come begging for you next week");
         randomFortunes.add("You will be given free toilet paper by your boss");
-        randomFortunes.add("You're enemies will bow before your greatness");
+        randomFortunes.add("Your enemies will bow before your greatness");
         randomFortunes.add("Tomorrow, you'll get told you have a nice butt");
-        randomFortunes.add("You're cat is pregnant with kittens?");
+        randomFortunes.add("Your cat is pregnant with kittens?");
         randomFortunes.add("Sometime this year, you'll win a meaningless prize");
         randomFortunes.add("You'll find love... sike! You'll be forever alone.");
         randomFortunes.add("Someone will buy you a car, at your dogs expense.");
@@ -87,7 +87,7 @@ public class FortuneTellerFrame extends JFrame {
 
 
         displayPanel = new JPanel();
-        fortuneTA = new JTextArea(5,40);
+        fortuneTA = new JTextArea(6,40);
         fortuneTA.setFont(new Font("Arial", Font.PLAIN, 12));
         fortuneTA.setEditable(false);
 
